@@ -1,0 +1,26 @@
+{
+  "name": "nightwat-split",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreHoumeau/Nightwatch-split.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreHoumeau/Nightwatch-split/issues"
+  },
+  "homepage": "https://github.com/AlexandreHoumeau/Nightwatch-split#readme",
+  "dependencies": {
+    "nightwatch": "^2.0.2"
+  },
+  "devDependencies": {
+    "chromedriver": "^97.0.3",
+    "geckodriver": "^3.0.1"
+  }
+}

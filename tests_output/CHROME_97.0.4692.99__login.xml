@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="login"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="4" time="13.94" timestamp="">
+  
+    <testcase name="With good values" classname="login" time="2.824" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="With wrong email" classname="login" time="2.969" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="With non-existent account" classname="login" time="4.073" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="With wrong password" classname="login" time="4.071" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .setValue() command on &lt;input[type=email]&gt;: Timed out while waiting for element &#34;input[type=email]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+       at DescribeInstance.&lt;anonymous&gt; (/Users/alexhm/Desktop/wizzer-teacher/Nightwat-split/tests/messenger.js:22:8)
+       at runMicrotasks (&lt;anonymous&gt;)
+ NoSuchElementError: An error occurred while running .setValue() command on &lt;input[type=password]&gt;: Timed out while waiting for element &#34;input[type=password]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+       at DescribeInstance.&lt;anonymous&gt; (/Users/alexhm/Desktop/wizzer-teacher/Nightwat-split/tests/messenger.js:23:8)
+       at runMicrotasks (&lt;anonymous&gt;)
+ NoSuchElementError: An error occurred while running .click() command on &lt;button[type=submit]&gt;: Timed out while waiting for element &#34;button[type=submit]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+       at DescribeInstance.&lt;anonymous&gt; (/Users/alexhm/Desktop/wizzer-teacher/Nightwat-split/tests/messenger.js:24:8)
+       at runMicrotasks (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
