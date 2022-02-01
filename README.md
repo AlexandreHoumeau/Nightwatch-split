@@ -11,7 +11,7 @@
 |   4|   Connexion à l'application avec un faux mot de passe | Message d'erreur : "Erreur de mot de passe"  |  OK | 🏆  |
 |   5|  Envoyer un message |  Le message envoyé remonte dans la messagerie |   |   |
 |   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  |   |   |
-|   7|  Changer son mot de passe en respectant les critères |   |   |   |
-|   8|  Changer son mot de passe avec moins de 8 caractères |   |   |   |
-|   9|   |   |   |   |
+|   7|  Envoyer un message |  Destinataire a un message apparaissant comme non lu |   |   |
+|   8|  Changer son mot de passe avec moins de 8 caractères |  Message d'erreur : "Mot de passe invalide"  |   |   |
+|   9|  Changer son mot de passe en respectant les critères | Mot de passe mis à jour  |   |   |
 |   10|   |   |   |   |
