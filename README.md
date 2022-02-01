@@ -9,9 +9,9 @@
 |   2|  Connexion à l'application sans @ | Message d'erreur : "Email invalide"  | OK  | 🏆  |
 |   3|  Connexion à l'application avec un compte non existant | Message d'erreur : "Email inexistant" | Pas le bon message d'erreur  | 💥 |
 |   4|   Connexion à l'application avec un faux mot de passe | Message d'erreur : "Erreur de mot de passe"  |  OK | 🏆  |
-|   5|  Envoyer un message |  Le message envoyé remonte dans la messagerie |   |   |
-|   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  |   |   |
-|   7|  Envoyer un message |  Destinataire a un message apparaissant comme non lu |   |   |
+|   5|  Envoyer un message |  Le message envoyé remonte dans la messagerie | OK  | 🏆   |
+|   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  | OK  | 🏆   |
+|   7|  Changer son mot de passe en mettant un deuxième mot de passe différent |  Message d'erreur "Mot de passe faux | OK  |  🏆  |
 |   8|  Changer son mot de passe avec moins de 8 caractères |  Message d'erreur : "Mot de passe invalide"  |   |   |
 |   9|  Changer son mot de passe en respectant les critères | Mot de passe mis à jour  |   |   |
 |   10|   |   |   |   |
