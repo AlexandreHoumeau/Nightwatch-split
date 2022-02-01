@@ -1,10 +1,13 @@
 # Nightwatch-split
 ## Tableau recettage
+*Légende* :  
+🏆 = Usecase réussi    
+💥 = Erreur dans le parcours  
 |  N° |  Action | Attendu|  Résultat |  | 
 |---|---|---|---|---|
-|  1 | Connexion à l'application Split avec compte existant  |   |   |   |
+|  1 | Connexion à l'application Split avec compte existant  |   |   | 🏆  |
 |   2|  Connexion à l'application sans @ | Message d'erreur  |   |   |
-|   3|  Connexion à l'application avec un compte non existant | Message d'erreur  |   |   |
+|   3|  Connexion à l'application avec un compte non existant | Message d'erreur  |   | 💥 |
 |   4|  Rechercher un cours  |  Résultat de recherche |   |   |
 |   5|  Envoyer un message |  Le destinataire a un message non lu |   |   |
 |   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  |   |   |
