@@ -1,7 +1,7 @@
 # Nightwatch-split
 ## Tableau recettage
 *Légende* :  
-🏆 = Usecase réussi    
+🏆 = Usecase réussi     
 💥 = Erreur dans le parcours  
 |  N° |  Action | Attendu|  Résultat |  | 
 |---|---|---|---|---|
@@ -12,6 +12,6 @@
 |   5|  Envoyer un message |  Le message envoyé remonte dans la messagerie | OK  | 🏆   |
 |   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  | OK  | 🏆   |
 |   7|  Changer son mot de passe en mettant un deuxième mot de passe différent |  Message d'erreur "Mot de passe faux | OK  |  🏆  |
-|   8|  Changer son mot de passe avec moins de 8 caractères |  Message d'erreur : "Mot de passe invalide"  |   |   |
-|   9|  Changer son mot de passe en respectant les critères | Mot de passe mis à jour  |   |   |
+|   8|  Changer son mot de passe avec moins de 8 caractères |  Message d'erreur : "Mot de passe invalide"  |  OK | 🏆  |
+|   9|  Changer son mot de passe en respectant les critères | Message "Mot de passe modifié avec succès"  | OK  | 🏆  |
 |   10|   |   |   |   |
