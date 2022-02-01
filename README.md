@@ -14,4 +14,4 @@
 |   7|  Changer son mot de passe en mettant un deuxième mot de passe différent |  Message d'erreur "Mot de passe faux | OK  |  🏆  |
 |   8|  Changer son mot de passe avec moins de 8 caractères |  Message d'erreur : "Mot de passe invalide"  |  OK | 🏆  |
 |   9|  Changer son mot de passe en respectant les critères | Message "Mot de passe modifié avec succès"  | OK  | 🏆  |
-|   10|   |   |   |   |
+|   10| Changement de prénom  |  Message "Informations mises à jour" | OK  |  🏆 |
