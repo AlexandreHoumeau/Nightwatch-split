@@ -6,8 +6,8 @@
 |  N° |  Action | Attendu|  Résultat |  | 
 |---|---|---|---|---|
 |  1 | Connexion à l'application Split avec compte existant  |  Arrivée sur l'url : http://localhost:3000/app/home | OK  | 🏆  |
-|   2|  Connexion à l'application sans @ | Message d'erreur  |   |   |
-|   3|  Connexion à l'application avec un compte non existant | Message d'erreur  |   | 💥 |
+|   2|  Connexion à l'application sans @ | Message d'erreur : "Email invalide"  |   | 🏆  |
+|   3|  Connexion à l'application avec un compte non existant | Message d'erreur : "Email inexistant" | Pas le bon message d'erreur  | 💥 |
 |   4|    |   |   |   |
 |   5|  Envoyer un message |  Le destinataire a un message non lu |   |   |
 |   6|  Envoyer un message | Destinataire reçoit le même message que l'expéditeur  |   |   |
