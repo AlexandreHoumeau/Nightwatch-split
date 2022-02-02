@@ -2,6 +2,7 @@ describe("Login", function () {
   it("With good values", function (browser) {
     browser
       .url(`${browser.launch_url}/login`)
+      .waitForElementVisible('input[type=email]',3000)
       .setValue("input[type=email]", browser.globals.email)
       .setValue("input[type=password]", browser.globals.password)
       .click("button[type=submit]")
@@ -12,6 +13,7 @@ describe("Login", function () {
   it("With wrong email", function (browser) {
     browser
     .url(`${browser.launch_url}/login`)
+    .waitForElementVisible('input[type=email]',3000)
     .setValue("input[type=email]", 'alexandre.houmeaugmail.com')
     .setValue("input[type=password]", browser.globals.password)
     .assert.containsText('.text-red-500', 'Email invalide')
@@ -21,6 +23,7 @@ describe("Login", function () {
   it("With non-existent account", function (browser) {
     browser
     .url(`${browser.launch_url}/login`)
+    .waitForElementVisible('input[type=email]',3000)
     .setValue("input[type=email]", 'not-an-account@gmail.com')
     .setValue("input[type=password]", browser.globals.password)
     .click("button[type=submit]")
@@ -32,6 +35,7 @@ describe("Login", function () {
   it("With wrong password", function (browser) {
     browser
     .url(`${browser.launch_url}/login`)
+    .waitForElementVisible('input[type=email]',3000)
     .setValue("input[type=email]", browser.globals.email)
     .setValue("input[type=password]", 'wrongPassword')
     .click("button[type=submit]")

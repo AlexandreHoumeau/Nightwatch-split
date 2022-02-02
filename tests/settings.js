@@ -2,6 +2,7 @@ describe("Change password", function () {
   it("Not the good password", function (browser) {
     browser
       .url(`${browser.launch_url}/login`)
+      .waitForElementVisible('input[type=email]',3000)
       .setValue("input[type=email]", browser.globals.email)
       .setValue("input[type=password]", browser.globals.password)
       .click("button[type=submit]")
@@ -19,6 +20,7 @@ describe("Change password", function () {
   it("A new password too short", function (browser) {
     browser
       .url(`${browser.launch_url}/login`)
+      .waitForElementVisible('input[type=email]',3000)
       .setValue("input[type=email]", browser.globals.email)
       .setValue("input[type=password]", browser.globals.password)
       .click("button[type=submit]")
@@ -35,6 +37,7 @@ describe("Change password", function () {
   it("A new password too short", function (browser) {
     browser
       .url(`${browser.launch_url}/login`)
+      .waitForElementVisible('input[type=email]',3000)
       .setValue("input[type=email]", browser.globals.email)
       .setValue("input[type=password]", browser.globals.password)
       .click("button[type=submit]")
